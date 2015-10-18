@@ -6,7 +6,7 @@
 	<head>
 		<title><?php echo include_title();?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="title" content="openCoding" />
+		<meta name="title" content="<?php echo include_title();?>" />
 		<meta name="description" content="An opensource livecoding.tv"/>
 
 		<!--Stylesheets-->
@@ -17,13 +17,12 @@
 			<!--Start titleBar-->
 			<div class="titleBar">
 				<div class="left">
-					<span class="logo"><a href="index.php"><img alt="<?php echo include_title();?> Logo" src="images/logo.png" /></a></span>
-					<p class="title"><?php echo include_title();?></p>
+					<span class="logo"><a href="index.php"><img alt="<?php echo include_title();?> Logo" src="assets/pics/logo.png" /></a></span>
 				</div>
 			<!--navBar-->
 				<ul class="navBar">
-					<li><a href="index.php?page=live">Live Streams</a></li>
-					<li><a href="index.php?page=video">Videos</a></li>
+					<li><a href="index.php?page=live">Live Streams</a></li> |
+					<li><a href="index.php?page=video">Videos</a></li> |
 					<li><a href="index.php?page=playlists">Playlists</a></li>
 				</ul>
 			</div>
@@ -46,7 +45,7 @@
 				?>
 			</div>
 			<div class="footer">
-				<p class="copyright">Copyright &copy; 2015 David Green. Published under GPL 2.0. Code can be found <a href="https://github.com/pbcub1/Code-Name-Live">here</a></p>
+				<p class="copyright">Copyright &copy; 2015 David Green. Published under GPL 2.0. Code can be found <a href="https://github.com/pbcub1/OpenCode">here</a>.</p>
 				<ul class="nav">
 					<li><a href="index.php?page=live">Live Streams</a></li>
 					<li><a href="index.php?page=video">Videos</a></li>

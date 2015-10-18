@@ -1,2 +1,2 @@
 # Code-Name-Live
-If you are working on this, you know what it is.
+This is an open source clone of livecoding. For those of you that use livecoding a lot, have you ever had something that you just wanted implemented, like a chat api, or even a bug fix, but the developers just couldn't or wouldn't get around to it? Well that is the point of this project. It is open source for the community to hack with it and put in the features that they want. Why spend a few days trying to hack around different barriers that LiveCoding has put up, when you can just add directly to a project and get the results you want.
